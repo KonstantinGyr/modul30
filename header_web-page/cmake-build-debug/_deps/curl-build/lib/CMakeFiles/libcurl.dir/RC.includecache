@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Kot/CLionProjects/hw30/header_web-page/cmake-build-debug/_deps/curl-src/include/curl/curlver.h
+
+C:/Users/Kot/CLionProjects/hw30/header_web-page/cmake-build-debug/_deps/curl-src/lib/libcurl.rc
+winver.h
+-
+../include/curl/curlver.h
+C:/Users/Kot/CLionProjects/hw30/header_web-page/cmake-build-debug/_deps/curl-src/include/curl/curlver.h
+
