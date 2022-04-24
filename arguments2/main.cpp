@@ -37,7 +37,9 @@ int main() {
             pair.value = it->second;
             payload.push_back(pair);
         }
-        cpr::Response r = cpr::Post(cpr::Url("http://httpbin.org/post"));
+        cpr::Payload pl = cpr::Payload(payload.begin(), payload.end());
+        cpr::Response r = cpr::Post(cpr::Url("http://httpbin.org/post"),pl);
+        std::cout<<r.text;
     }
     return 0;
 }
